@@ -1,0 +1,436 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "K2D";
+  src: url("../fonts/K2D-Bold.eot");
+  src: url("../fonts/K2D-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Bold.woff2") format("woff2"), url("../fonts/K2D-Bold.woff") format("woff"), url("../fonts/K2D-Bold.ttf") format("truetype"), url("../fonts/K2D-Bold.svg#K2D-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Gilroy";
+  src: url("../fonts/SVN-GilroyMedium.eot");
+  src: url("../fonts/SVN-GilroyMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-GilroyMedium.woff2") format("woff2"), url("../fonts/SVN-GilroyMedium.woff") format("woff"), url("../fonts/SVN-GilroyMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Gilroy";
+  src: url("../fonts/SVN-GilroyBold.eot");
+  src: url("../fonts/SVN-GilroyBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-GilroyBold.woff2") format("woff2"), url("../fonts/SVN-GilroyBold.woff") format("woff"), url("../fonts/SVN-GilroyBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Poppins";
+  src: url("../fonts/SVN-PoppinsBold.eot");
+  src: url("../fonts/SVN-PoppinsBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-PoppinsBold.woff2") format("woff2"), url("../fonts/SVN-PoppinsBold.woff") format("woff"), url("../fonts/SVN-PoppinsBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Gilroy XBold";
+  src: url("../fonts/SVN-GilroyXBold.eot");
+  src: url("../fonts/SVN-GilroyXBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-GilroyXBold.woff2") format("woff2"), url("../fonts/SVN-GilroyXBold.woff") format("woff"), url("../fonts/SVN-GilroyXBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Poppins";
+  src: url("../fonts/SVN-PoppinsSemiBold.eot");
+  src: url("../fonts/SVN-PoppinsSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-PoppinsSemiBold.woff2") format("woff2"), url("../fonts/SVN-PoppinsSemiBold.woff") format("woff"), url("../fonts/SVN-PoppinsSemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Poppins";
+  src: url("../fonts/SVN-Poppins-Regular.eot");
+  src: url("../fonts/SVN-Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-Poppins-Regular.woff2") format("woff2"), url("../fonts/SVN-Poppins-Regular.woff") format("woff"), url("../fonts/SVN-Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Gilroy";
+  src: url("../fonts/SVN-GilroySemiBold.eot");
+  src: url("../fonts/SVN-GilroySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-GilroySemiBold.woff2") format("woff2"), url("../fonts/SVN-GilroySemiBold.woff") format("woff"), url("../fonts/SVN-GilroySemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+.my_container {
+  background-color: white;
+  overflow: hidden;
+  background-image: url("../images/bg_1.png"); }
+
+.img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: block; }
+
+.text_title {
+  width: 700px;
+  max-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 26px;
+  font-family: "SVN-Gilroy";
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 40px !important; }
+
+.text_content {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+  font-weight: 500;
+  font-family: "SVN-Gilroy";
+  font-style: normal; }
+
+.big-title {
+  width: 700px;
+  max-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 45px;
+  font-family: "SVN-Gilroy";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.2;
+  margin-bottom: 30px; }
+  .big-title span {
+    font-weight: 600 !important; }
+
+.big-title-1 span {
+  color: #5b85af !important; }
+
+.big-title-2 span {
+  color: #496a31 !important; }
+
+.big-title-3 span {
+  color: #000000 !important; }
+
+.big-title-4 span {
+  color: #000000 !important; }
+
+.group_image {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; }
+  .group_image img {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .group_image img:first-child {
+    position: initial; }
+
+.author {
+  margin: 0 auto;
+  display: flex;
+  width: 440px;
+  max-width: 100%;
+  margin-top: 30px;
+  justify-content: space-between; }
+  .author p {
+    font-family: "SVN-Gilroy";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0 !important; }
+    .author p span {
+      font-weight: bold; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.cover-container {
+  -moz-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  width: 100%;
+  padding-bottom: 0px;
+  position: relative;
+  /* Sử dụng animation để điều chỉnh hiệu ứng xuất hiện trong 3 giây */
+  /* Áp dụng animation cho phần tử và thời gian delay là 3 giây */ }
+  .cover-container .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1%; }
+  .cover-container .swiper-pagination-bullet {
+    margin: 0 10px !important;
+    background-color: #9bc9e5 !important;
+    width: 13px;
+    height: 13px; }
+  .cover-container .swiper-button-next {
+    width: 70px;
+    height: 30px;
+    background-image: url("../images/right.png");
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: calc(29%);
+    top: 57%;
+    opacity: 1;
+    animation: fadeIn 12s ease 0s; }
+    .cover-container .swiper-button-next::after {
+      display: none; }
+  .cover-container .swiper-button-prev {
+    width: 70px;
+    height: 30px;
+    background-image: url("../images/left.png");
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 31.5%;
+    top: 72%;
+    animation: fadeIn 12s ease 0s; }
+    .cover-container .swiper-button-prev::after {
+      display: none; }
+  .cover-container .btn-nav:hover {
+    filter: brightness(200%); }
+  .cover-container .swiper-slide {
+    background-color: transparent; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  /* Khi bắt đầu animation, opacity là 0 */
+  to {
+    opacity: 1; }
+  /* Khi kết thúc animation, opacity là 1 */ }
+.cover-title {
+  width: 1000px;
+  max-width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  text-align: center; }
+  .cover-title h2 {
+    color: black;
+    font-size: 110px;
+    margin-bottom: 0px !important;
+    font-family: "SVN-Gilroy";
+    font-weight: 500;
+    font-style: normal; }
+    .cover-title h2 span {
+      font-weight: bold; }
+  .cover-title h3 {
+    font-size: 80px;
+    margin-bottom: 0px !important;
+    margin-top: -20px;
+    font-family: "SVN-Gilroy";
+    font-weight: 500;
+    font-style: normal; }
+    .cover-title h3 span {
+      font-weight: bold; }
+
+.group_img_1 {
+  margin-top: 200px;
+  margin-bottom: 30px; }
+
+.group_img_2 {
+  z-index: 10; }
+
+.section-1 {
+  background-image: url("../images/bg_2.png");
+  background-repeat: no-repeat;
+  background-position: center bottom 260%; }
+
+.section-2 {
+  position: relative;
+  padding-bottom: 60px;
+  margin-bottom: 60px; }
+
+.group-img-background {
+  width: 100%;
+  height: 90%;
+  background-color: #c2cbb8;
+  position: absolute;
+  top: 13%; }
+
+.section-4 {
+  margin-top: 30px;
+  padding-bottom: 90px;
+  background-image: url("../images/bg_3.png");
+  background-repeat: no-repeat;
+  background-position: center top 42%; }
+
+.slide-container {
+  width: 1625px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 50px; }
+  .slide-container .swiper-slide {
+    background-color: transparent; }
+  .slide-container .swiper-pagination-2 {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1%;
+    z-index: 10;
+    position: absolute;
+    text-align: center; }
+  .slide-container .swiper-pagination-bullet {
+    margin: 0 10px !important;
+    background-color: #9bc9e5 !important;
+    width: 13px;
+    height: 13px; }
+  .slide-container .swiper-button-next-2 {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    background-image: url("../images/right.png");
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: calc(22%);
+    top: 63%;
+    z-index: 10;
+    cursor: pointer; }
+    .slide-container .swiper-button-next-2::after {
+      display: none; }
+  .slide-container .swiper-button-prev-2 {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    background-image: url("../images/left.png");
+    /* Đường dẫn đến hình ảnh của bạn */
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 22%;
+    top: 35%;
+    z-index: 10;
+    cursor: pointer; }
+    .slide-container .swiper-button-prev-2::after {
+      display: none; }
+  .slide-container .btn-nav-2:hover {
+    filter: brightness(200%); }
+
+.store-container {
+  width: 840px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "SVN-Poppins" !important; }
+  .store-container .store-item {
+    background-color: #ebebeb;
+    padding: 40px;
+    margin-bottom: 5px; }
+    .store-container .store-item .info {
+      font-size: 18px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-bottom: 7px; }
+      .store-container .store-item .info .img-icon {
+        width: 18px;
+        height: auto; }
+      .store-container .store-item .info p {
+        font-weight: normal;
+        margin-bottom: 0; }
+        .store-container .store-item .info p .phone {
+          font-weight: bold; }
+        .store-container .store-item .info p .time {
+          font-weight: 600; }
+    .store-container .store-item h3 {
+      font-weight: 600;
+      font-style: normal;
+      font-size: 20px;
+      color: #294768;
+      margin-left: 33px; }
+
+@media (max-width: 1600px) {
+  .cover-title h2 {
+    font-size: 95px; }
+
+  .cover-title h3 {
+    font-size: 80px; }
+
+  .cover-container .swiper-button-next {
+    right: calc(28.5%);
+    top: 57%; }
+
+  .cover-container .swiper-button-prev {
+    left: 31%; } }
+@media (max-width: 1440px) {
+  .cover-title h2 {
+    font-size: 85px; }
+
+  .cover-title h3 {
+    font-size: 65px; }
+
+  .slide-container {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .slide-container .swiper-button-next-2 {
+    right: calc(21%); }
+
+  .slide-container .swiper-button-prev-2 {
+    left: 21%; }
+
+  .cover-container .swiper-button-next {
+    right: calc(28%); }
+
+  .cover-container .swiper-button-prev {
+    left: 30.5%; } }
+@media (max-width: 1024px) {
+  .cover-title h2 {
+    font-size: 65px; }
+
+  .cover-title h3 {
+    font-size: 50px; }
+
+  .group_img_1 {
+    max-width: calc(100% - 40px); }
+
+  .group_img_3 {
+    max-width: calc(100% - 40px); }
+
+  .cover-container .swiper-button-next {
+    width: 49px;
+    height: 30px; }
+
+  .cover-container .swiper-button-prev {
+    top: 75%;
+    width: 49px;
+    height: 30px; }
+
+  .slide-container .swiper-button-next-2 {
+    width: 49px;
+    height: 30px; }
+
+  .slide-container .swiper-button-prev-2 {
+    width: 49px;
+    height: 30px; } }
+@media (min-width: 577px) {
+  .mobile {
+    display: none; } }
+@media (max-width: 576px) {
+  .pc {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
