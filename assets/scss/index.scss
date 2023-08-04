@@ -426,16 +426,228 @@
         width: 49px;
         height: 30px;
     }
+    .store-container {
+        padding: 0 20px;
+    }
+    .section-1 {
+        background-position: center bottom 72%;
+    }
+}
+
+@media (max-width: 820px) {
+    .cover-container .swiper-button-next {
+        width: 40px;
+        height: 30px;
+    }
+    .cover-container .swiper-button-prev {
+        top: 75%;
+        width: 40px;
+        height: 30px;
+    }
+    .slide-container .swiper-button-next-2 {
+        width: 40px;
+        height: 30px;
+    }
+    .slide-container .swiper-button-prev-2 {
+        width: 40px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover-title h2 {
+        font-size: 50px;
+    }
+    .cover-title h3 {
+        font-size: 41px;
+    }
 }
 
 @media (min-width: 577px) {
     .mobile {
-        display: none;
+        display: none !important;
     }
 }
 
 @media (max-width: 576px) {
     .pc {
+        display: none !important;
+    }
+    .group_text_1 {
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+    }
+    .section-1,
+    .section-3,
+    .section-4 {
+        padding: 0 15px;
+    }
+    .group_img_1 {
+        margin-top: 300px;
+    }
+    .section-1 {
+        background-position: left 81% bottom 92%;
+    }
+    .big-title {
+        line-height: 1.1;
+    }
+    .section-2 {
+        position: relative;
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
+    .cover-title h3 {
+        font-size: 46px;
+    }
+    .cover-title h2 {
+        font-size: 57px;
+    }
+
+    .group_img_3 {
+        max-width: calc(100%);
+        margin-bottom: 20px;
+    }
+    .section-4 {
+        background-position: right 84% top 46%;
+    }
+    .author {
+        margin-top: 140px;
+    }
+    .store-container .store-item .info {
+        font-size: 17px;
+    }
+
+    .cover-container .swiper-button-next {
+        right: calc(6%);
+        width: 59px;
+        top: 49%;
+    }
+    .cover-container .swiper-button-prev {
+        left: calc(6%);
+        width: 59px;
+        top: 49%;
+    }
+
+    .slide-container .swiper-button-next-2 {
         display: none;
+    }
+    .slide-container .swiper-button-prev-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .cover-title h2 {
+        font-size: 45px;
+        margin-bottom: 10px !important;
+    }
+    .cover-title h3 {
+        font-size: 33px;
+    }
+    .text_title {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .cover-container .swiper-pagination-bullet {
+        margin: 0 18px !important;
+        background-color: #9bc9e5 !important;
+        width: 18px;
+        height: 18px;
+    }
+    .cover-container .swiper-pagination {
+        bottom: -1%;
+    }
+    .group_img_1 {
+        margin-top: 200px;
+    }
+    .section-1 {
+        background-position: left 84% bottom 80%;
+    }
+    .big-title {
+        font-size: 40px;
+    }
+    .slide-container .swiper-pagination-bullet {
+        margin: 0 18px !important;
+        width: 18px;
+        height: 18px;
+    }
+    .author {
+        margin-top: 120px;
+        padding: 0 20px;
+        font-size: 15px !important;
+    }
+    .author p {
+        font-size: 18px;
+    }
+    .section-4 {
+        background-position: right 84% top 43%;
+    }
+    .store-container .store-item {
+        background-color: #ebebeb;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+    .group_img_1 {
+        max-width: calc(100% - 0px);
+    }
+
+    .section-4 {
+        background-position: right 84% top 42%;
+    }
+    .store-container {
+        padding: 0px 20px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 414px) {
+    .store-container {
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    .section-4 {
+        background-position: right 84% top 41%;
+    }
+    .author {
+        margin-top: 75px;
+    }
+    .big-title {
+        font-size: 35px;
+    }
+    .text_title {
+        br {
+            display: none;
+        }
+    }
+}
+@media (max-width: 390px) {
+    .slide-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .author p {
+        font-size: 16px;
+    }
+    .cover-title h3 {
+        font-size: 28px;
+    }
+    .cover-title h2 {
+        font-size: 34px;
+        margin-bottom: 10px !important;
+    }
+    .group_img_1 {
+        margin-top: 105px;
+    }
+    .section-1 {
+        background-position: left 83% bottom 66%;
+    }
+    .group_img_1 {
+        max-width: calc(100% - 0px);
+    }
+    .text_title {
+        max-width: 97%;
+    }
+    .author {
+        margin-top: 15px;
     }
 }
